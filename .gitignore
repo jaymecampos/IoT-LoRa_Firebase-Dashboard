@@ -1,0 +1,33 @@
+# Arduino IDE
+*.o
+*.d
+*.elf
+*.map
+*.log
+*.orig
+*.bak
+*~
+
+# Pastas de build do Arduino
+build/
+build-*/
+Build.log
+Build.options.txt
+
+# Plataformas e bibliotecas locais
+/libraries/
+/hardware/
+
+# Arquivos do ESP32/ESP8266
+esp32fs/
+esp8266fs/
+partitions/
+certs/
+
+# Arquivos de configuração
+secrets.h
+config.h
+
+# Sistema
+.DS_Store
+Thumbs.db
